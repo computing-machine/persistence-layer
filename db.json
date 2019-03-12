@@ -1,0 +1,452 @@
+{
+  "accounts": [
+    {
+      "id": 1,
+      "title": "Assets",
+      "description": "Root account for all other asset accounts.",
+      "type": "asset",
+      "parentID": null,
+      "path": null,
+      "normalBalance": "dr",
+      "balance": 0
+    },
+    {
+      "id": 2,
+      "title": "Expenses",
+      "description": "Root account for all other expense accounts.",
+      "type": "expense",
+      "parentID": null,
+      "path": null,
+      "normalBalance": "dr",
+      "balance": 0
+    },
+    {
+      "id": 3,
+      "title": "Dividends",
+      "description": "Root account for all other dividend accounts.",
+      "type": "dividend",
+      "parentID": null,
+      "path": null,
+      "normalBalance": "dr",
+      "balance": 0
+    },
+    {
+      "id": 4,
+      "title": "Liabilities",
+      "description": "Root account for all other libility accounts.",
+      "type": "liability",
+      "parentID": null,
+      "path": null,
+      "normalBalance": "cr",
+      "balance": 0
+    },
+    {
+      "id": 5,
+      "title": "Capital",
+      "description": "Root account for all other capital accounts.",
+      "type": "capital",
+      "parentID": null,
+      "path": null,
+      "normalBalance": "cr",
+      "balance": 0
+    },
+    {
+      "id": 6,
+      "title": "Income",
+      "description": "Root account for all other income accounts.",
+      "type": "income",
+      "parentID": null,
+      "path": null,
+      "normalBalance": "cr",
+      "balance": 0
+    },
+    {
+      "title": "Receivable accounts",
+      "type": "receivable",
+      "description": "This account represents all connections.",
+      "balance": 0,
+      "parentID": 1,
+      "path": "1",
+      "normalBalance": "dr",
+      "id": 7
+    },
+    {
+      "title": "Usmaan",
+      "type": "receivable",
+      "description": "This is a connection.",
+      "balance": 0,
+      "parentID": 7,
+      "path": "1-7",
+      "normalBalance": "dr",
+      "id": 8,
+      "children": []
+    },
+    {
+      "title": "Umair",
+      "type": "receivable",
+      "description": "This is a connection account.",
+      "balance": 0,
+      "parentID": 7,
+      "path": "1-7",
+      "normalBalance": "dr",
+      "id": 9,
+      "children": []
+    },
+    {
+      "title": "Marium",
+      "type": "receivable",
+      "description": "This is a connection account.",
+      "balance": 0,
+      "parentID": 7,
+      "path": "1-7",
+      "normalBalance": "dr",
+      "id": 10
+    },
+    {
+      "title": "Uzair",
+      "type": "receivable",
+      "description": "This is a connection account.",
+      "balance": 0,
+      "parentID": 7,
+      "path": "1-7",
+      "normalBalance": "dr",
+      "id": 11
+    },
+    {
+      "title": "Naqeeb",
+      "type": "receivable",
+      "description": "This is a connection account.",
+      "balance": 0,
+      "parentID": 7,
+      "path": "1-7",
+      "normalBalance": "dr",
+      "id": 12
+    },
+    {
+      "title": "Cash accounts",
+      "type": "cash",
+      "description": "This account represent all our cash accounts.",
+      "balance": 0,
+      "parentID": 1,
+      "path": "1",
+      "normalBalance": "dr",
+      "id": 13
+    },
+    {
+      "title": "Checking account",
+      "type": "cash",
+      "description": "Gulberg, Lahore",
+      "balance": 0,
+      "parentID": 13,
+      "path": "1-13",
+      "normalBalance": "dr",
+      "id": 14,
+      "children": []
+    },
+    {
+      "title": "Petty cash",
+      "type": "cash",
+      "description": "Cash for daily expenses.",
+      "balance": 0,
+      "parentID": 13,
+      "path": "1-13",
+      "normalBalance": "dr",
+      "id": 15
+    },
+    {
+      "title": "SMS service expense",
+      "type": "expense",
+      "description": "service expense account.",
+      "balance": 0,
+      "parentID": 2,
+      "path": "2",
+      "normalBalance": "dr",
+      "id": 16
+    },
+    {
+      "title": "Landline service expense",
+      "type": "expense",
+      "description": "service expense account.",
+      "balance": 0,
+      "parentID": 2,
+      "path": "2",
+      "normalBalance": "dr",
+      "id": 17
+    },
+    {
+      "title": "Internet data service expense",
+      "type": "expense",
+      "description": "service expense account.",
+      "balance": 0,
+      "parentID": 2,
+      "path": "2",
+      "normalBalance": "dr",
+      "id": 18
+    },
+    {
+      "title": "Salary expense",
+      "type": "expense",
+      "description": "Employees salary",
+      "balance": 0,
+      "parentID": 2,
+      "path": "2",
+      "normalBalance": "dr",
+      "id": 19
+    },
+    {
+      "title": "Ali dividend",
+      "type": "dividend",
+      "description": "This is Ali's dividend.",
+      "balance": 0,
+      "parentID": 3,
+      "path": "3",
+      "normalBalance": "dr",
+      "id": 20
+    },
+    {
+      "title": "Martin dividend",
+      "type": "dividend",
+      "description": "This is Martin's dividend.",
+      "balance": 0,
+      "parentID": 3,
+      "path": "3",
+      "normalBalance": "dr",
+      "id": 21
+    },
+    {
+      "title": "Ptv withholding tax",
+      "type": "liability",
+      "description": "from customer for a particular service.",
+      "balance": 0,
+      "parentID": 4,
+      "path": "4",
+      "normalBalance": "cr",
+      "id": 22
+    },
+    {
+      "title": "Rivers withholding tax",
+      "type": "liability",
+      "description": "from customer for a particular service.",
+      "balance": 0,
+      "parentID": 4,
+      "path": "4",
+      "normalBalance": "cr",
+      "id": 23
+    },
+    {
+      "title": "Sales tax",
+      "type": "liability",
+      "description": "organization sales tax.",
+      "balance": 0,
+      "parentID": 4,
+      "path": "4",
+      "normalBalance": "cr",
+      "id": 24
+    },
+    {
+      "title": "Ali capital",
+      "type": "capital",
+      "description": "Ali's capital.",
+      "balance": 0,
+      "parentID": 5,
+      "path": "5",
+      "normalBalance": "cr",
+      "id": 25
+    },
+    {
+      "title": "Martin capital",
+      "type": "capital",
+      "description": "Martin's capital.",
+      "balance": 0,
+      "parentID": 5,
+      "path": "5",
+      "normalBalance": "cr",
+      "id": 26
+    },
+    {
+      "title": "SMS service income",
+      "type": "income",
+      "description": "service income.",
+      "balance": 0,
+      "parentID": 6,
+      "path": "6",
+      "normalBalance": "cr",
+      "id": 27,
+      "children": []
+    },
+    {
+      "title": "Landline service income",
+      "type": "income",
+      "description": "service income.",
+      "balance": 0,
+      "parentID": 6,
+      "path": "6",
+      "normalBalance": "cr",
+      "id": 28
+    },
+    {
+      "title": "internet data service income",
+      "type": "income",
+      "description": "service income.",
+      "balance": 0,
+      "parentID": 6,
+      "path": "6",
+      "normalBalance": "cr",
+      "id": 29
+    }
+  ],
+  "ledgers": [
+    {
+      "accountID": 7,
+      "accountTitle": "Receivables",
+      "splits": [],
+      "id": 1
+    },
+    {
+      "accountID": 8,
+      "accountTitle": "Usmaan",
+      "splits": [],
+      "id": 2
+    },
+    {
+      "accountID": 9,
+      "accountTitle": "Umair",
+      "splits": [],
+      "id": 3
+    },
+    {
+      "accountID": 10,
+      "accountTitle": "Marium",
+      "splits": [],
+      "id": 4
+    },
+    {
+      "accountID": 11,
+      "accountTitle": "Uzair",
+      "splits": [],
+      "id": 5
+    },
+    {
+      "accountID": 12,
+      "accountTitle": "Naqeeb",
+      "splits": [],
+      "id": 6
+    },
+    {
+      "accountID": 13,
+      "accountTitle": "Cash",
+      "splits": [],
+      "id": 7
+    },
+    {
+      "accountID": 14,
+      "accountTitle": "Checking account",
+      "splits": [],
+      "id": 8
+    },
+    {
+      "accountID": 15,
+      "accountTitle": "Petty cash",
+      "splits": [],
+      "id": 9
+    },
+    {
+      "accountID": 16,
+      "accountTitle": "SMS service expense",
+      "splits": [],
+      "id": 10
+    },
+    {
+      "accountID": 17,
+      "accountTitle": "Landline service expense",
+      "splits": [],
+      "id": 11
+    },
+    {
+      "accountID": 18,
+      "accountTitle": "Internet data service expense",
+      "splits": [],
+      "id": 12
+    },
+    {
+      "accountID": 19,
+      "accountTitle": "Salary expense",
+      "splits": [],
+      "id": 13
+    },
+    {
+      "accountID": 20,
+      "accountTitle": "Ali dividend",
+      "splits": [],
+      "id": 14
+    },
+    {
+      "accountID": 21,
+      "accountTitle": "Martin dividend",
+      "splits": [],
+      "id": 15
+    },
+    {
+      "accountID": 22,
+      "accountTitle": "Ptv withholding tax",
+      "splits": [],
+      "id": 16
+    },
+    {
+      "accountID": 23,
+      "accountTitle": "Rivers withholding tax",
+      "splits": [],
+      "id": 17
+    },
+    {
+      "accountID": 24,
+      "accountTitle": "Sales tax",
+      "splits": [],
+      "id": 18
+    },
+    {
+      "accountID": 25,
+      "accountTitle": "Ali capital",
+      "splits": [],
+      "id": 19
+    },
+    {
+      "accountID": 26,
+      "accountTitle": "Martin capital",
+      "splits": [],
+      "id": 20
+    },
+    {
+      "accountID": 27,
+      "accountTitle": "SMS service income",
+      "splits": [],
+      "id": 21
+    },
+    {
+      "accountID": 28,
+      "accountTitle": "Landline service income",
+      "splits": [],
+      "id": 22
+    },
+    {
+      "accountID": 29,
+      "accountTitle": "internet data service income",
+      "splits": [],
+      "id": 23
+    },
+    {
+      "accountID": 30,
+      "accountTitle": "Ghalib",
+      "splits": [],
+      "id": 24
+    },
+    {
+      "accountID": 30,
+      "accountTitle": "Ghalib",
+      "splits": [],
+      "id": 25
+    }
+  ],
+  "transactions": [],
+  "splits": []
+}
